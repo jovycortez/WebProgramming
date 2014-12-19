@@ -4,10 +4,11 @@
 	//step 1       
 							
 	$dbconn = mysqli_connect(
-	/*The Server Name*/              "localhost",
-	/*user name or Admin Name*/      "root",
-	/*password*/                     "",
-	/*database name*/                "test");
+	/*Apache Server Name:*/              "localhost",
+	/*user name: Admin Name*/            "root",
+	/*password: There 
+	is no password yet*/                 "",
+	/*MySql: database name*/             "test");
 	if(mysqli_connect_errno()){
 	die("My Database connection failed: ".
   	mysqli_connect_error()." (".
